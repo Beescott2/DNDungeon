@@ -116,6 +116,10 @@ NavMeshSettings:
 GameObject:
   m_PrefabParentObject: {fileID: 100002, guid: 4bec38f0c63028342b1b9909f385128c, type: 3}
   m_PrefabInternal: {fileID: 563419211}
+--- !u!4 &218690628 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400002, guid: 4bec38f0c63028342b1b9909f385128c, type: 3}
+  m_PrefabInternal: {fileID: 563419211}
 --- !u!64 &218690629
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -150,7 +154,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1409271591}
     m_Modifications:
     - target: {fileID: 400002, guid: 4bec38f0c63028342b1b9909f385128c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -170,11 +174,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 4bec38f0c63028342b1b9909f385128c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 4bec38f0c63028342b1b9909f385128c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 4bec38f0c63028342b1b9909f385128c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -182,15 +186,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 4bec38f0c63028342b1b9909f385128c, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 4bec38f0c63028342b1b9909f385128c, type: 3}
       propertyPath: m_LocalScale.z
-      value: 45
+      value: 45.000015
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 4bec38f0c63028342b1b9909f385128c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 45
+      value: 45.000015
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 4bec38f0c63028342b1b9909f385128c, type: 3}
       propertyPath: m_LocalScale.x
@@ -241,6 +245,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 218690628}
   - {fileID: 1798509572}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -308,5 +313,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1409271591}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
